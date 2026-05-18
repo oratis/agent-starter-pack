@@ -1,5 +1,5 @@
 <template>
-  <div class="asp-maintenance-banner">
+  <aside class="asp-maintenance-banner" role="status" aria-label="Project status">
     <div class="asp-maintenance-banner__inner">
       <span class="asp-maintenance-banner__icon" aria-hidden="true">⚠️</span>
       <div class="asp-maintenance-banner__text">
@@ -24,7 +24,7 @@
         >Migration guide</a>
       </div>
     </div>
-  </div>
+  </aside>
 </template>
 
 <script setup></script>
